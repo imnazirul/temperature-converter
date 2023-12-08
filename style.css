@@ -43,13 +43,13 @@ body {
 
 .dynamic-part .con label {
   font-size: 19px;
-  width: 25%;
+  width: 32%;
   text-align: left;
   font-weight: bold;
 }
 
 .dynamic-part .con input[type="number"] {
-  width: 70%;
+  width: 65%;
   border-radius: 10px;
   border: none;
   font-size: 17px;
