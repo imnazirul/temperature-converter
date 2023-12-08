@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(90deg, lightblue, lightgreen);
+}
+
+.container {
+  background-color: rgba(0, 255, 255, 0.397);
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+  margin-bottom: 30px;
+}
+
+.dynamic-part {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dynamic-part .con {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dynamic-part .con label {
+  font-size: 19px;
+  width: 25%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.dynamic-part .con input[type="number"] {
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  outline: none;
+  padding: 10px 15px;
+}
